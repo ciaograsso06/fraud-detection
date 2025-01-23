@@ -9,7 +9,7 @@ def predict(model, input_data):
 
 if __name__ == "__main__":
     MODEL_PATH = "./models/fraud_model.pkl"
-    INPUT_FILE = "./data/processed/sample_input.csv"  
+    INPUT_FILE = "./data/processed/sample_input.csv" 
     OUTPUT_FILE = "./outputs/predictions.txt"
 
     model = joblib.load(MODEL_PATH)

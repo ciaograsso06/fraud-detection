@@ -19,7 +19,7 @@ def train_model(X_train, y_train):
     return model
 
 if __name__ == "__main__":
-    DATA_PATH = "./data/processed/creditcard.csv"
+    DATA_PATH = "./data/processed/creditcard_2023.csv"
     MODEL_PATH = "./models/fraud_model.pkl"
 
     df = load_data(DATA_PATH)

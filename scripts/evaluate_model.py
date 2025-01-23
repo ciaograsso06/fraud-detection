@@ -12,7 +12,7 @@ def evaluate_model(model, X_test, y_test):
     return report, conf_matrix
 
 if __name__ == "__main__":
-    DATA_PATH = "./data/processed/creditcard.csv"
+    DATA_PATH = "./data/processed/creditcard_2023.csv"
     MODEL_PATH = "./models/fraud_model.pkl"
     REPORT_PATH = "./outputs/report.txt"
     CONF_MATRIX_PATH = "./outputs/confusion_matrix.txt"
